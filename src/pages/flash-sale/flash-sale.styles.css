@@ -1,0 +1,21 @@
+.slick-prev {
+    width: 2rem;
+    height: 2rem;
+    background-color: gray;
+    border-radius: 100%;
+}
+
+.slick-prev:hover {
+    background: #000;
+}
+
+.slick-next {
+    width: 2rem;
+    height: 2rem;
+    background-color: gray;
+    border-radius: 100%;
+}
+
+.slick-next:hover {
+    background: #000;
+}
