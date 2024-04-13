@@ -43,7 +43,7 @@ const FlashSale = () => {
                 {dataProducts?.map(pro => (
                     <div key={pro.id} className="grid grid-cols-1 gap-8 mt-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-4 ">
                         <div className="flex flex-col items-center justify-center w-5/6 max-w-lg mx-auto rounded-2xl" >
-                            <img className="object-cover w-full h-60 rounded-2xl" src={pro.image} alt="T-Shirt" />
+                            <img className="object-cover w-full h-60 rounded-2xl" src={pro.image} alt="Laptop" />
                             <h4 className="mt-2 text-lg font-medium text-gray-700">{pro.proname}</h4>
                             <div>
                                 <span className="text-red-500 italic line-through px-4">{pro.price}đ</span>

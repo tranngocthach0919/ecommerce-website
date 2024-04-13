@@ -65,23 +65,23 @@ const CheckOut = () => {
             className="leading-loose flex justify-around">
             <div
                 className="max-w-xl mt-14 p-10 bg-white rounded shadow-2xl">
-                <p className="text-gray-800 font-medium">Order information</p>
+                <p className="text-gray-800 font-medium">Thông tin đơn hàng</p>
                 <div className="flex mb-2 font-medium">
-                    <label className="w-1/2 block text-md text-gray-600">
-                        Item quantity:
+                    <label className="w-2/3 block text-md text-gray-600">
+                        Tổng số lượng:
                     </label>
                     <label>{totalQuantity}</label>
                 </div>
                 <div className="flex mb-2 font-medium">
-                    <label className="w-1/2 block text-md text-gray-600">
-                        Total cost:
+                    <label className="w-2/3 block text-md text-gray-600">
+                        Tổng chi phí:
                     </label>
                     <label>{totalCost}đ</label>
                 </div>
-                <p className="text-gray-800 font-medium">Customer information</p>
+                <p className="text-gray-800 font-medium">Thông tin khách hàng</p>
                 <div className="">
                     <label className="block text-md text-gray-600">
-                        Customer Name
+                        Tên khách hàng
                     </label>
                     <input
                         className="w-full px-5 py-1 text-gray-700 bg-gray-50 rounded"
@@ -101,7 +101,7 @@ const CheckOut = () => {
                 </div>
                 <div className="mt-2">
                     <label className="block text-md text-gray-600">
-                        Phone Number
+                        Số điện thoại
                     </label>
                     <input
                         className="w-full px-5 py-2 text-gray-700 bg-gray-50 rounded"
@@ -129,7 +129,7 @@ const CheckOut = () => {
                 </div>
                 <div className="mt-2">
                     <label className=" block text-md text-gray-600">
-                        Address
+                        Địa chỉ
                     </label>
                     <input
                         className="w-full px-5 py-2 text-gray-700 bg-gray-50 rounded"

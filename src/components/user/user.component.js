@@ -39,7 +39,7 @@ const User = () => {
                                         }
                                     }}
                                 >
-                                    { data ? 'Sign out' : 'Sign in' }
+                                    { data ? 'Đăng xuất' : 'Đăng nhập' }
                                 </button>
                             </form>
                         </div>

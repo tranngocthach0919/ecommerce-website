@@ -38,7 +38,7 @@ const Product = () => {
                                 className="w-full h-2/3 rounded-xl"
                                 alt=''
                             />
-                            <div className="flex justify-between mt-2 px-3">
+                            <div className="flex justify-between mt-2 px-3 h-10 min-h-10">
                                 <h4 className="font-bold">{pro.proname}</h4>
                                 {
                                     pro.discount === 0 ? (

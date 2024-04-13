@@ -3,16 +3,16 @@ export const menu = [
     {
         id: 1,
         link: '/',
-        label: 'Home',
+        label: 'Trang chủ',
     },
     {
         id: 2,
         link: '/product',
-        label: 'Product',
+        label: 'Sản phẩm',
     },
     {
         id: 3,
         link: '/about',
-        label: 'About',
+        label: 'Về chúng tôi',
     },
 ]

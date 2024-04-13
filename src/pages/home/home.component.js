@@ -23,14 +23,14 @@ const Home = () => {
                 </section>
                 {/* section 2 */}
                 <section className="bg-white my-4 p-4 rounded-xl">
-                    <h1 className="font-bold text-3xl text-gray-900">Flash Sale Product</h1>
+                    <h1 className="font-bold text-3xl text-gray-900">Giá sốc săn ngay!!!</h1>
                     <FlashSale />
                 </section>
                 {/* section 3 */}
                 <section className="bg-white my-4 p-4 rounded-xl">
                     <Category per={8} />
                     <div className='flex justify-around'>
-                        <Link to='/product' className="bg-teal-700 px-4 py-2 text-white font-medium rounded-lg">See more</Link>
+                        <Link to='/product' className="bg-teal-700 px-4 py-2 text-white font-medium rounded-lg">Xem thêm</Link>
                     </div>
                 </section>
             </div>
